@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "BonaNova";
+  src: url("./styles/fonts/BonaNova-Regular.woff") format("woff"),
+       url("./styles/fonts/BonaNova-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+
+}
+ul, li{
+  list-style-type: none;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-family: "BonaNova",Arial, sans-serif;
+  font-size: 24px;
+}
+
+.category__wrapper{
+  width: 100%;
+  display: flex;
+  margin: 10px;
+}
+
+.category-filter{
+  display: flex;
+  width: 500px;
+  padding-right: 80px;
+}
+.category-filter__list{
+  width: 100%;
+  height: 500px;
+  list-style-type: none;
+
+}
+
+category-filter__item{
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  list-style-type: none;
+  display: list-item;
+}
+
+.category-filter__btn{
+  background: inherit;
+  border: none;
+  /*width: 100%;*/
+  height: 50px;
+}
+
+.filter__values{
+  display: none;
+}
+
+.filter__values_active{
+  display: flex;
+  flex-direction: column;
+}
+
+.category__name{
+  font-family: "BonaNova",Arial, sans-serif;
+  font-size: 24px;
+}
+
+.catalog{
+  width: 100%;
+}
+
+.catalog__list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  list-style-type: none;
+}
+
+.head-setting{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: end;
+}
+
+.css-13cymwt-control, .css-1fdsijx-ValueContainer{
+  width: 300px;
+  height: 50px;
+}
+
+catalog__link {
+  list-style-type: none;
+  display: list-item;
+  height: 500px;
+  /*text-align: -webkit-match-parent;*/
+}
+
+.catalog__scroll-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+}
+.catalog__pagination-wrapper{
+  width: 100%;
+  padding-top: 20px;
+  font-size: 24px;
+}
+
+.catalog-btn{
+  background: inherit;
+  width: 50px;
+  height: 50px;
+}
+hr{
+  width: 100%;
+}
+
+.catalog__image{
+  width: 450px;
+}
+
+
